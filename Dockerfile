@@ -2,6 +2,7 @@ FROM maven:3.6.2
 
 LABEL com.mycorp.blog.version=1.2.3
 LABEL org.opencontainers.image.source=https://github.com/ericsmalling/snyklabeldemo.git
+LABEL io.snyk.containers.image.dockerfile=/Dockerfile
 
 ENV MYNAME=Eric
 

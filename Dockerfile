@@ -5,7 +5,7 @@ LABEL org.opencontainers.image.source=https://github.com/ericsmalling/snyklabeld
 
 ENV MYNAME=Eric
 
-RUN apt-get update -y && apt-get install curl
+RUN apt-get update -y && apt-get install -y tomcat9
 # USER 65534
 
 # COPY myname.sh myname.sh

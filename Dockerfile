@@ -1,7 +1,7 @@
 FROM adoptopenjdk
 
 LABEL com.mycorp.blog.version=1.2.3
-LABEL org.opencontainers.image.source=https://github.com/ericsmalling/snyklabeldemo
+LABEL org.opencontainers.image.source=https://github.com/ericsmalling/snyklabeldemo.git
 
 ENV MYNAME=Eric
 

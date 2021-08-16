@@ -1,4 +1,4 @@
-FROM adoptopenjdk
+FROM ubuntu:latest
 
 LABEL com.mycorp.blog.version=1.2.3
 LABEL org.opencontainers.image.source=https://github.com/ericsmalling/snyklabeldemo.git

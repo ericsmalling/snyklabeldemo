@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM tomcat:9
 
 LABEL com.mycorp.blog.version=1.2.3
 LABEL org.opencontainers.image.source="https://github.com/ericsmalling/snyklabeldemo"
